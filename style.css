@@ -1,0 +1,91 @@
+body {
+    align-items: flex-start;
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+    padding: 180px 152px 174px 152px;
+  
+}
+.section {
+  border-radius: 12px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
+  height: 385px;
+  padding: 32px;
+  width: 368px;
+}
+.p_header {
+  color: #000;
+  font-family: Raleway;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 120%;
+}
+.p_content {
+  color: #141414;
+  font-family: Raleway;
+  font-size: 16px;
+  line-height: 140%;
+}
+.icon {
+  border-radius: 50%;
+  height: 72px;
+  width: 72px;
+}
+.center {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.btn {
+  align-items: center;
+  background-color: #fff;
+  border: 0px solid #000;
+  border-radius: 200px;
+  color: #000;
+  display: inline-flex;
+  font-family: Raleway;
+  font-size: 12px;
+  gap: 6px;
+  justify-content: center;
+  line-height: 18px;
+  padding: 15px 19px 15px 31px;
+}
+.btn:hover {
+  color: #001aff;
+}
+.btn_icon:hover {
+  fill: #001aff;
+}
+.btn_icon:focus {
+    fill: #001aff;
+}
+.btn:focus {
+    border: 0px solid #000;
+    color: #001aff;
+}
+.btn:active {
+    background-color: #F1F5FF;
+}
+/* Responsywność dla ekranów o szerokości maksymalnej 620px */
+@media only screen and (max-width: 620px) {
+    body {
+      padding: 80px 16px;
+    }
+  
+    .section {
+      width: 100%;
+    }
+  
+    .p_header {
+      font-size: 24px;
+    }
+  
+    .p_content {
+      font-size: 14px;
+    }
+  
+    .btn {
+      font-size: 10px;
+      padding: 10px 12px 10px 24px;
+    }
+  }
